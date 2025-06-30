@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "functions": {
+    "api/region.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    { "src": "/region", "dest": "/api/region.py" }
+  ]
+}
